@@ -14,7 +14,7 @@ body {
 article {
     background-color: hsl(0, 0%, 100%);
     width: 360px;
-    margin: 10% auto;
+    margin: 15% auto;
     padding: 15px;
     border-radius: 15px;
     box-shadow: 5px 5px 0 2px hsl(0, 0%, 7%);
@@ -44,7 +44,7 @@ p {
 }
 
 h1, p {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .user-details {
@@ -62,4 +62,11 @@ div p {
     color: black
 }
 
+a {
+    text-decoration: none;
+    color: hsl(0, 0%, 7%);
+}
 
+a:hover {
+    color: #f4d04e
+}

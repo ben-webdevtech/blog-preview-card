@@ -14,7 +14,7 @@ body {
 article {
     background-color: hsl(0, 0%, 100%);
     width: 360px;
-    margin: 15% auto;
+    margin: 15% auto 0 auto;
     padding: 15px;
     border-radius: 15px;
     box-shadow: 5px 5px 0 2px hsl(0, 0%, 7%);
@@ -69,4 +69,12 @@ a {
 
 a:hover {
     color: #f4d04e
+}
+
+
+@media screen and (max-width: 375px) {
+    article {
+        width: 90%;
+        margin: 10% auto;
+    }
 }
